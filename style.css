@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    background-color: chocolate;
+    font-family: 'Caveat', cursive;
+font-family: 'Fuggles', cursive;
+    padding: 20px;
+    font-size: 50px;
+    color: rgb(242, 211, 170);
+}
+.banner{
+    height: 400px;
+    width: 100%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(http://nilgirisfoods.com/assets/images/banner/banner8-01.jpg);
+}
+.row{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(248, 235, 218);
+
+
+}
+.col{
+    height: 330px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    background-color:rgb(224, 189, 149);
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px 10px   3px rgba(0, 0, 0, 0.466);
+
+}
+.cap{
+    font-size: 60px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    color: rgb(108, 173, 252);
+font-family: 'Dancing Script', cursive;
+}
+.img{
+    width: 330px;
+    height: 200px;
+    margin-top: 20px;
+   background-color: beige;
+   border-radius: 20px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: 50%;
+   transform: translate(-50%);
+
+
+
+}
+.one{
+    background-image: url(https://b.zmtcdn.com/data/dish_photos/203/14a9b7ac410c29f7231ff0eebda95203.jpg);
+}
+.two{
+    background-image: url(https://img-global.cpcdn.com/recipes/c05528ae66f0dfc0/1360x964cq70/bun-parotta-recipe-main-photo.webp);
+}
+.three{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/804/447/desktop-wallpaper-parotta-recipe-porotta.jpg);
+}
+.four{
+    background-image: url(https://www.indianhealthyrecipes.com/wp-content/uploads/2021/06/kothu-parotta-paratha.jpg);
+}
+.five{
+    background-image: url(https://1.bp.blogspot.com/-SDpHML6A2Ks/X2dgeld3SOI/AAAAAAAA80E/da0xy1mPlH8n9dS75RZLeiuw15SBeZOZgCLcBGAsYHQ/s2048/IMG_2099%2Bv.jpg);
+
+}
+.six{
+    background-image: url(https://images.deliveryhero.io/image/talabat/Menuitems/NidhiParotta_Andrea__637370795525557404.jpg);
+}
+
+
+.but{
+    margin-top: 5%;
+    margin-left: 50%;
+   transform: translate(-50%);
+   color: rgb(249, 249, 248);
+   background-color: brown;
+}
+h3{
+    text-align: center;
+    margin-top: 10px;
+
+}
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: brown;
+    display: flex;
+}
+a{
+align-items: center;
+position: relative;
+left: 562px;
+}
+
+
+@media screen and (max-width:400px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    h2{
+        background-color: chocolate;
+        font-family: 'Caveat', cursive;
+    font-family: 'Fuggles', cursive;
+        padding: 10px;
+        font-size: 20px;
+        color: rgb(242, 211, 170);
+    }
+    .banner{
+        height: 150px;
+        width: 400px;
+        background-position-x: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(http://nilgirisfoods.com/assets/images/banner/banner8-01.jpg);
+    }
+    .cap{
+        font-size: 20px;
+        position: relative;
+        top: 20px;
+        left: 10px;
+        color: rgb(108, 173, 252);
+    font-family: 'Dancing Script', cursive;
+    }
+    .row{
+        height: 180px;
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(248, 235, 218);
+    }
+    .col{
+        height: 150px;
+        width: 400px;
+        margin-top: 15px;
+        margin-left: 20px;
+        justify-content: center;
+        background-color:rgb(224, 189, 149);
+        border-radius: 5%;
+        box-shadow: 10px 10px 10px 10px   3px rgba(0, 0, 0, 0.466);
+    
+    }
+    .img{
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+       background-color: beige;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin-left: 50%;
+       transform: translate(-50%);
+    
+    }
+    .but{
+        margin-top: 5%;
+        margin-left: 50%;
+       transform: translate(-50%);
+       color: rgb(249, 249, 248);
+       background-color: brown;
+       width: 25px;
+       height: 10px;
+       font-size: 5px;
+       
+    }
+    h3{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 10px;
+    
+    }
+    .footer{
+        width: 400px;
+        height: 40px;
+        background-color: brown;
+        display: flex;
+       
+    }
+    a{
+        align-items: center;
+        position: relative;
+        left: 170px;
+        padding: 2px;
+        }
+
+    #i{
+        width: 15px;
+        height: 15px;
+    }
+    #o{
+        width: 15px;
+        height: 15px;
+    }
+    #d{
+        width: 15px;
+        height: 15px;
+    }
+    h4{
+        font-size: 10px;
+    }
+
+
+
+}
